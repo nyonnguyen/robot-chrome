@@ -14,5 +14,5 @@ WORKDIR /app
 
 COPY . /app
 
-RUN python get-pip.py
-RUN pip install -r requirements.txt
+RUN python app/get-pip.py
+RUN pip install --trusted-host pypi.python.org -r app/requirements.txt
