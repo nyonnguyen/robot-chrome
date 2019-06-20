@@ -1,8 +1,6 @@
 FROM selenium/standalone-chrome
 USER root
 
-VOLUME /home/aos/ntnhon
-
 RUN export
 #RUN apt-get -y install apt-transport-https
 RUN apt-get update
